@@ -1,0 +1,17 @@
+{
+  "name": "api-consumer-multidisciplinario",
+  "version": "1.0.0",
+  "description": "consumidor de rabbit",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "author": "@Saúl",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
