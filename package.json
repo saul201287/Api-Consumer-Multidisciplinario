@@ -4,7 +4,9 @@
   "description": "consumidor de rabbit",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "start":"pm2 start ./build/src/server.js",
+    "stop":"pm2 stop all"
   },
   "author": "@Saúl",
   "license": "ISC",
