@@ -32,7 +32,7 @@ const consumer = async () => {
           const body = JSON.stringify({
             email: data,
           });
-          await fetch("http://localhost:3001/notification/putPassword", {
+          await fetch("http://54.164.233.42/notification/putPassword", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -76,7 +76,7 @@ const consumer2 = async () => {
           const body = JSON.stringify({
             email: data,
           });
-          await fetch("http://localhost:3001/notification/putUsername", {
+          await fetch("http://54.164.233.42/notification/putUsername", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
